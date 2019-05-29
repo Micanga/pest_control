@@ -1,0 +1,21 @@
+# Result and Test Files
+*.pyc
+*.pdf
+*Pickle
+*.R
+__pycache__/
+*.xml
+.idea/*
+*~
+[#]*[#]
+.\#*
+*.aux
+*.log
+
+# IO Files
+outputs/*
+input/*
+inputs/*
+outputs/*
+outputs/*/*
+plots/*
