@@ -29,7 +29,7 @@ log.show_scenario(log_file,scenario)
 # 2. Initializing the agent
 position = scenario.get_random_position()
 direction = random.sample(['N','S','W','E'],1)[0]
-radius = int(sqrt(scenario.width*scenario.height)*0.5)
+radius = 5#int(sqrt(scenario.width*scenario.height)*0.5)
 angle = 2*pi
 
 uav = Agent(position[0],position[1],direction,radius,angle)

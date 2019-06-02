@@ -15,14 +15,14 @@ number_of_tests = 50
 # 2. Starting the experiment
 test_number = 0
 while test_number < number_of_tests:
-    for maps in range(0,5)
+    for maps in range(0,5):
         # a. printing test information
         print '- STARTING TEST ',test_number,' -'
         print '| Map Number: ',maps
         print '---------'
 
         # b. writing the command
-        experiment_run = 'python main.py '+ maps
+        experiment_run = 'python main.py '+ str(maps)
         print experiment_run
 
         # c. running it
